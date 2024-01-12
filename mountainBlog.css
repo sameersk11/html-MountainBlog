@@ -95,13 +95,7 @@
     .button2 {background-color: rgb(15, 65, 141);} 
 
 /****************************************************************** registration ****************************************************/ 
-    .container, .contact{
-        justify-content: center;
-        display: flex;
-        text-align: center;
-    }
-
-    .registration{
+   .registration{
         font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             margin: 0;
@@ -109,15 +103,7 @@
             align-items: center;
             justify-content: center;
             height: 100vh;
-
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image: url("/images/mountainBg2.jpg");
-            background-size: cover;
-            opacity: 0.9;
+            background-color: #a3a3a3;
     }
 
     .container {
@@ -125,6 +111,8 @@
         padding: 20px;
         border-radius: 8px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 350px;
     }
 
     table {
