@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+
+    header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color:rgb(15, 65, 141); /* Set the text color to make it visible on the image */
+        z-index: 2; /* Ensure the header is above the background image */
+        
+    }
+    
+    .logo h1 {
+        margin: 0;
+        font-family: monospace;
+    }
+    
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+    }
+    
+    nav li {
+        margin-right: 20px;
+        color: rgb(15, 65, 141); /* Set the text color to make it visible on the image */
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .main {
+        position: relative;
+    }
+    
+    .backgroundImage {
+        position: relative;
+        width: 100%;
+        height: 130vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("/images/mountainBg3.jpg");
+        background-size: cover;
+        opacity: 0.9;
+    }
+    
+    .content {
+        z-index: 1; /* Ensure content is above the overlay */
+        color: white;
+    }
+
+    .CenterName{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 60px;
+        color:rgb(255, 255, 255);
+        padding: 20px;
+    }
+
+    #Info{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 25px;
+    }
+
+    .button {
+        border: none;
+        color: white;
+        padding: 13px 50px;
+        text-align: center;
+        font-size: 16px;
+
+
+    }
+    
+    .button2 {background-color: rgb(15, 65, 141);} 
+
+/****************************************************************** registration ****************************************************/ 
+    .container, .contact{
+        justify-content: center;
+        display: flex;
+        text-align: center;
+    }
+
+    .registration{
+        font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("/images/mountainBg2.jpg");
+            background-size: cover;
+            opacity: 0.9;
+    }
+
+    .container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    table {
+        width: 100%;
+    }
+
+    td {
+        padding: 10px;
+    }
+
+    input, textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+    }
+
+    button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #45a049;
+    }
+
+/* *********************************************************************        Second Section     ************************************************************************** */
+    .cards{
+        background-color:white;
+        margin-top: 80px;
+        padding: 20px;
+        color: rgb(94, 93, 93);
+    }
+
+    .destinationHeading{
+        padding:30px;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size:35px ;
+        text-align: center;
+    }
+
+    #cardDescription{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .cards {
+        
+        text-align: center;
+    }
+
+    .destinationHeading {
+        color: #333;
+    }
+
+    #cardDescription {
+        color: #666;
+    }
+
+    .grid {
+        margin-top: 100px;
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .grid li {
+            margin: 30px;
+            height: 400px; /* Set a fixed height for consistency */
+            background-size: cover;
+            background-position: center;
+            border-radius: 1px;
+            overflow: hidden;
+            display: inline-block;
+    }
+
+    .small {
+        width: 400px; /* Adjust the width for the smaller images */
+    }
+
+    .large {
+        width: 700px; /* Adjust the width for the larger images */
+    }
+
+/**********************************************************     Section 3      *****************************************************************/
+
+.tourPackage{
+    background-color: rgb(235, 235, 235);
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.trips {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.trips li {
+    width: 45%; /* Adjust the width as needed */
+    margin: 10px;
+    padding: 20px;
+}
+
+/**********************************************************     Section 4      *****************************************************************/
+
+.testimonials{
+    margin-top: 30px;
+    margin-bottom:100px;
+}
+
+/**********************************************************     Section 5      *****************************************************************/
+
+.learnMore{
+    background-color: rgb(235, 235, 235);
+    margin-top: 30px;
+    padding-bottom: 100px;
+}
+
+.fillForm{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#email{
+    width: 350px;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    box-sizing: border-box;
+    margin-right: 30px;
+}
+#btn{
+    background-color: #1450a4;
+    font-size: 20px;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #45a049;
+}
+
+/**********************************************************     FOOTER     *****************************************************************/
+
+footer{
+    background-color: #39629a;
+}
